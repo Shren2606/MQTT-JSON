@@ -6,7 +6,7 @@
 const char* ssid = "A21";  // name wifi of you
 const char* password = "744653aa";//
 const char* mqtt_server = "192.168.1.8";
-const uint16_t mqtt_port = 1883;
+const char* mqtt_port = 1883;
 int ledpin = 2 ;
 
 WiFiClient espClient;
